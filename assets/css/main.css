@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+@media only screen and (min-width:440px) {
+    
+    .top-right-1 a::after{
+        content: "";
+        position: absolute;
+        right: 0px;
+        width: 1px;
+        height: 30px;
+        background-color: #d5c6c6;
+    }
+}
+
+.userDropdown{
+    display: none;
+}
+.openUserDropdown{
+    display: block;
+    animation-name: visi;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in;
+}
+
+@keyframes visi {
+    from{opacity: 0.2;}
+    to{opacity: 1;}
+}
+
+.hoverstate{
+    box-shadow: 0px 2px 11px -7px black;
+}
+
+.filterBox:hover .caption::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 115%;
+    height: 2px;
+    background: rgb(176, 153, 153);
+}
+
+.filter1 .caption::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 115%;
+    height: 2px;
+    background: rgb(176, 153, 153);
+}
+.filterBox{
+    min-width: 58px;
+}
+
+.prevFilter{
+    display: none;
+}
+.filterBoxLeftIconBox{
+    left: 0pc;
+}
+.filterBoxLeft::-webkit-scrollbar{
+    display: none;
+}
+.filterBoxLeft{
+    scroll-behavior: smooth;
+}
+
+
+.shadowUnderFilters{
+    box-shadow: 0px 2px 10px -5px black;
+    transition: all 0.5s;
+}
+

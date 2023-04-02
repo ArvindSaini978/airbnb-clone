@@ -1,0 +1,17 @@
+{
+  "name": "airbnb-clone",
+  "version": "1.0.0",
+  "description": "airbnb Clone with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "author": "arvind",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.2.4"
+  }
+}
