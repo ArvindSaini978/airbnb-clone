@@ -23,7 +23,7 @@ You can check the live preview by visiting [Airbnb clone](https://airbnb-clone-p
 ## Contribution
 Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
 *  #### Create a pull request
-   It can get better then this, your pull request will be appreciated. You can get started by picking up any open issues from [here](https://github.com/EasyCodingWithArvind/airbnb-clone/pulls) and make a pull request.
+   It can get better then this, your pull request will be appreciated. You can get started by picking up any open issues from [here](https://github.com/ArvindSaini978/airbnb-clone/pulls) and make a pull request.
 ## Licence
 MIT Licence
 
